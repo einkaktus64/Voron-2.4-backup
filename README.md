@@ -185,4 +185,3 @@ printer.cfg
 ## 🙏 Credits
 
 Basiert auf dem [Klipper-Backup-Projekt](https://github.com/Staubgeborener/klipper-backup) von Staubgeborener.
-
