@@ -9,8 +9,9 @@
 | Komponente | Details |
 |---|---|
 | Kinematik | CoreXY, 4x unabhängige Z-Motoren (QGL) |
-| Mainboard (MCU) | STM32G0B1, USB-Anbindung (`stm32g0b1xx`) |
-| Toolhead-Board (MCU `nhk`) | RP2040-basiert (nhk = wahrscheinlich BTT/EBB-Klon), USB angebunden |
+| Mainboard | **BTT Manta M8P V1.1** (STM32G0B1, USB-Anbindung) |
+| Toolhead-Board (MCU `nhk`) | **LDO Nitehawk 36** (RP2040-basiert, hier per USB statt CAN angebunden) |
+| Toolhead | **Xol Toolhead** |
 | Extruder | Galileo 2 (Direct Drive, Gear-Ratio 9:1) |
 | Hotend/Probe | Chaos Labs CNC Tap (Klick-Endstop über Nozzle) |
 | Bett-Heizung | SSR-geschaltet, max_power 0.6 |
@@ -19,7 +20,7 @@
 | Beleuchtung | 2x Neopixel-Ketten (Chamber 28 LEDs, Display 7 LEDs) |
 | Bauraum | 250×250×220 mm effektiv (X/Y 0–250, Z bis 220) |
 
-Bemerkenswert: `[mcu EBBCan]` (CAN-Toolhead-Board) ist im Config auskommentiert – aktuell läuft der Toolhead offenbar über die USB-verbundene `nhk`-Platine statt CAN-Bus.
+Bemerkenswert: `[mcu EBBCan]` (CAN-Toolhead-Board) ist im Config auskommentiert – die Nitehawk 36 am Xol Toolhead läuft aktuell per USB statt über CAN-Bus.
 
 ---
 
@@ -185,3 +186,4 @@ printer.cfg
 ## 🙏 Credits
 
 Basiert auf dem [Klipper-Backup-Projekt](https://github.com/Staubgeborener/klipper-backup) von Staubgeborener.
+
