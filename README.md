@@ -13,7 +13,7 @@ Dieses Repository enthält die Live-Konfiguration meines **Voron 2.4**. Dank der
 * **Toolhead:** ⚡ **Xol Toolhead** *(leichtgewichtig & optimierter Bauteillüfter-Airflow)*
 * **Z-Probe / Homing:** 🎯 **Chaos Labs CNC Tap** *(extrem präzises Homing direkt über die Düse)*
 * **Software-Stack:** Klipper + Moonraker
-* **Web-Interface:** Mainsail / Fluidd
+* **Web-Interface:** Mainsail 
 
 ---
 
